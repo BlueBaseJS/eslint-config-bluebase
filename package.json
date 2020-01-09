@@ -1,0 +1,50 @@
+{
+  "name": "@bluebase/eslint-config-bluebase",
+  "version": "1.0.0",
+  "description": "A collection of coding standards used for BlueBase projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "lint:ts": "eslint --ext=jsx,ts,tsx src"
+  },
+  "repository": "https://github.com/BlueBaseJS/eslint-config-bluebase",
+  "author": "BlueEast Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueBaseJS/eslint-config-bluebase/issues"
+  },
+  "homepage": "https://github.com/BlueBaseJS/eslint-config-bluebase#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.4.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@bluebase/code-standards": "^2.4.2",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import-order-alphabetical": "^1.0.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prefer-arrow": "^1.1.6",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "metro-react-native-babel-preset": "^0.53.0",
+    "react": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "semver": "^6.3.0",
+    "typescript": "^3.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/semver": "^6.0.2",
+    "install": "^0.13.0"
+  }
+}
