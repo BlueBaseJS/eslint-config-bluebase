@@ -6,6 +6,7 @@
   "scripts": {
     "test": "exit 0",
     "lint:ts": "eslint --ext=jsx,ts,tsx src",
+    "fix": "exit 0",
     "fix:md": "exit 0",
     "fix:prettier": "exit 0",
     "test:only": "exit 0",
