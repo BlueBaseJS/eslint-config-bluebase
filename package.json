@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 0",
-    "lint:ts": "eslint --ext=jsx,ts,tsx src"
+    "lint:ts": "eslint --ext=jsx,ts,tsx src",
+    "fix:md": "exit 0"
   },
   "repository": "https://github.com/BlueBaseJS/eslint-config-bluebase",
   "author": "BlueEast Team",
