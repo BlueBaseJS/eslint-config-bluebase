@@ -6,7 +6,17 @@
   "scripts": {
     "test": "exit 0",
     "lint:ts": "eslint --ext=jsx,ts,tsx src",
-    "fix:md": "exit 0"
+    "fix:md": "exit 0",
+    "fix:prettier": "exit 0",
+    "test:only": "exit 0",
+    "test:lint": "exit 0",
+    "test:prettier": "exit 0",
+    "test:md": "exit 0",
+    "doc": "exit 0",
+    "doc:html": "exit 0",
+    "doc:json": "exit 0",
+    "doc:build-storybook": "exit 0",
+    "doc:publish": "exit 0"
   },
   "repository": "https://github.com/BlueBaseJS/eslint-config-bluebase",
   "author": "BlueEast Team",
