@@ -11,7 +11,7 @@
 
 ### Setup
 
-- Install this package
+- Install the package via
 ```
 yarn add @bluebase/eslint-config-bluebase
 ```
